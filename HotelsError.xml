@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotel
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://crob209.github.io/cse445_a4/Hotels.xsd">
+
+	<!--Attribute missing-->
+	<Hotel Rating="4.4">
+		<Name>Arizona Grand Resort</Name>
+		<Phone>602-438-9000</Phone>
+		<Address>
+			<Number>8000</Number>
+			<Street>South Arizona Grand E</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85044</Zip>
+		</Address>
+	</Hotel>
+	
+	<!--phone missing-->
+	<Hotel Rating="3.8">
+		<Name>Hotel Tempest</Name>
+		<Address NearstAirport="Sky Harbor">
+			<Number>1375</Number>
+			<Street>E University Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<!--no closing tag address-->
+	<Hotel Rating="4.5">
+		<Name>Little America Hotel</Name>
+		<Phone>928-779-7900</Phone>
+		<Address NearstAirport="Flagstaff Pulliam">
+			<Number>2515</Number>
+			<Street>E Butler Ave</Street>
+			<City>Flagstaff</City>
+			<State>AZ</State>
+			<Zip>86004</Zip>
+	</Hotel>
+
+	<!--Two names-->
+	<Hotel Rating="4.3">
+		<Name>Hilton Phoenix Chandler</Name>
+		<Name>Extra name</Name>
+		<Phone>480-899-7400</Phone>
+		<Address NearstAirport="Mesa Gateway">
+			<Number>2929</Number>
+			<Street>W Frye Rd</Street>
+			<City>Chandler</City>
+			<State>AZ</State>
+			<Zip>85224</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="2.7">
+		<Name>Super 8</Name>
+		<Phone>480-961-3888</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>7171</Number>
+			<Street>W Chandler Blvd</Street>
+			<City>Chandler</City>
+			<State>AZ</State>
+			<Zip>85226</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.2">
+		<Name>Tru</Name>
+		<Phone>602-567-9800</Phone>
+		<Address NearstAirport="Mesa Gateway">
+			<Number>1950</Number>
+			<Street>S Santan Village Pkwy</Street>
+			<City>Gilbert</City>
+			<State>AZ</State>
+			<Zip>85295</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<Name>The McCormick</Name>
+		<Phone>800-535-1865</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>7401</Number>
+			<Street>N Scottsdale Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85253</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.9">
+		<Name>Bposhtels</Name>
+		<Phone>888-276-7485</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>7707</Number>
+			<Street>E McDowell Rd B</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85257</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="2.8">
+		<Name>Motel 6</Name>
+		<Phone>480-946-2280</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>6848</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.7">
+		<Name>Catle Hot Springs</Name>
+		<Phone>844-348-1601</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>5050</Number>
+			<Street>W Castle Hot Springs Rd</Street>
+			<City>Morristown</City>
+			<State>AZ</State>
+			<Zip>85342</Zip>
+		</Address>
+	</Hotel>
+
+</Hotels>
